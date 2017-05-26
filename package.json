@@ -1,20 +1,23 @@
 {
-	"name": "todolist",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build-css": "node-sass --include-path scss dev/scss/main.scss public/css/main.css",
-		"watch-css": "nodemon -e scss -x \"npm run build-css\"",
-		"reload": "browser-sync start --server --files \"public/css/*.css\" \"*.html\""
-	},
-	"author": "Patrick Stockwell",
-	"license": "ISC",
-	"devDependencies": {
-		"browser-sync": "^2.18.8",
-		"gulp": "^3.9.1",
-		"node-sass": "^4.5.2",
-		"nodemon": "^1.11.0"
-	}
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss dev/scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "reload": "browser-sync start --server --files \"public/css/*.css\" \"*.html\""
+  },
+  "author": "Patrick Stockwell",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
