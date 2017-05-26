@@ -27,9 +27,6 @@ var myApp = (function(){
 		$input.val('');
 	}
 
-	function clearInput(){
-
-	}
 
 	return addItem;
 

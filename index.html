@@ -2,18 +2,23 @@
 <html>
 <head>
 	<title>To do list</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
-	<h1>Pat's awesome to-do list</h1>
-	<div class="wrapper">
-		<input class="todo-input" placeholder="enter item here" type="text">
-		<button class="add-button">Add</button>
-		<ul class="all-items">
-			<!-- items go here -->
-		</ul>
+	<div class="container">
+		<h1>Pat's awesome to-do list</h1>
+		<div class="wrapper col-xs-8 col-sm-4">
+			<input class="todo-input form-control" placeholder="enter item here" type="text">
+			<button class="btn btn-primary add-button">Add</button>
+			<ul class="all-items">
+				<!-- items go here -->
+			</ul>
+		</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script src="app.js"></script>
+
 </body>
 </html>
